@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .contact-details {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .office-info,
+  .contact-form {
+    flex-basis: 45%;
+  }
+  
+  .office-info h2,
+  .contact-form h2 {
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  label,
+  input,
+  textarea,
+  button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  input,
+  textarea,
+  button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  input:focus,
+  textarea:focus {
+    outline: none;
+    border-color: #007bff;
+  }
